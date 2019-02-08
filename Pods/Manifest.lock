@@ -1,0 +1,33 @@
+PODS:
+  - BringgTracking (1.18.0):
+    - Socket.IO-Client-Swift (~> 12.1.2)
+  - Socket.IO-Client-Swift (12.1.3):
+    - Starscream (~> 2.1.1)
+  - Starscream (2.1.1)
+
+DEPENDENCIES:
+  - BringgTracking (from `https://github.com/narlei/customer-sdk-ios.git`, branch `delivery`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  BringgTracking:
+    :branch: delivery
+    :git: https://github.com/narlei/customer-sdk-ios.git
+
+CHECKOUT OPTIONS:
+  BringgTracking:
+    :commit: 53a0a25126f9d4ea85aeac2e203bea486ad44a17
+    :git: https://github.com/narlei/customer-sdk-ios.git
+
+SPEC CHECKSUMS:
+  BringgTracking: 0bc550fcfbe3428ea653066df5794e7010cd8c03
+  Socket.IO-Client-Swift: 2d3838d0e7bc105626872081fb6a23141145e8f8
+  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+
+PODFILE CHECKSUM: 67142113efdb8d9d321e073489d3368b4cac990d
+
+COCOAPODS: 1.6.0
